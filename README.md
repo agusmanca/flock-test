@@ -60,7 +60,8 @@ Se creo un servicio que retorna un UserDetails con el fin de garantizar la auten
 
 ## Documentación
 Para probar los endpoints puede hacerlo desde Swagger accediendo a la siguente pagina:
-###* Recuerede que debe loguearse antes.
+
+### * Recuerede que debe loguearse antes.
 
 [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
