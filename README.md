@@ -15,7 +15,7 @@ Dependencias:
     - Logger
     
 
-#Aclaracion !!
+# Aclaracion !!
 
 ## Para poder ejecutar los endopoints debera previamente desde un browser deberá loguearse previamente:
 
@@ -50,7 +50,7 @@ Permite obetener las coordenadas de una provicia pasando por parámetro su nombr
 Permite obetener una lista con los nombres de las provicia que sirven de parametro para el punto anterior.
 
 
-##Capa de seguridad
+## Capa de seguridad
 
 Para este apartado se trabajo con el modulo de spring security. Al iniciar la aplicacion una serie de usuarios se cargan 
 en una base embebida en memoria y sirven como parametro para el acceso.
@@ -58,7 +58,7 @@ en una base embebida en memoria y sirven como parametro para el acceso.
 Se creo un servicio que retorna un UserDetails con el fin de garantizar la autenticación.
 
 
-##Documentación
+## Documentación
 Para probar los endpoints puede hacerlo desde Swagger accediendo a la siguente pagina:
 ###* Recuerede que debe loguearse antes.
 
