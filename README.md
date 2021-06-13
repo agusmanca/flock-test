@@ -17,18 +17,18 @@ Dependencias:
 
 # Aclaracion !!
 
-## Para poder ejecutar los endopoints debera previamente desde un browser deberá loguearse previamente:
+## Para poder ejecutar los endopoints deberá loguearse previamente desde un browser:
 
-### Puede accederse desde el root, el cual lo redireccionara al login:
+### Puede accederse desde el root, el cual lo redireccionará al login:
 [http://localhost:8080/](http://localhost:8080/)
 
 ### O puede accederse desde el la ruta de login:
 [http://localhost:8080/login](http://localhost:8080/login)
 
-###Para cerrar la sesión, puede hacerlo desde la url:
+### Para cerrar la sesión, puede hacerlo desde la url:
 [http://localhost:8080/logout](http://localhost:8080/logout)
 
-##Lista de usuarios:
+## Lista de usuarios:
 ```
 Usuario: admin        -       Password: 1234
 Usuario: amanca       -       Password: 1234
@@ -36,7 +36,7 @@ Usuario: flock        -       Password: 1234
 Usuario: simpleuser   -       Password: 1234
 ```
 
-#Desarrollo
+# Desarrollo
 
 Para el siguiente proyecto se desarrollaron 2 endpoints manejados por un solo controlador, que cumplen con lo requerido.
 Corresponden a 2 método de acceso por verbo GET:
